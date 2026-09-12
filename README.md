@@ -1,3 +1,65 @@
+## Executive Summary & Findings
+
+* **Dimension 1: Corporate Ownership (EU Space Industry)**
+  * **Direct vs. Indirect Ownership:** Direct non-EU ownership of Eurospace member firms stands at **8.22%**, but jumps to **27.26%** when incorporating indirect ownership structures.
+  * **Geopolitical Profile:** Foreign ownership is heavily concentrated in allied nations (USA, Canada, UK, Switzerland, Norway). Ownership by geopolitical rivals (e.g., Russia, China) is **<0.03%**.
+  * **Firm Type Variations:** Publicly traded space manufacturers exhibit significant foreign ownership, whereas state- or family-owned firms remain predominantly EU-owned.
+
+* **Dimension 2: Public Procurement Tenders (2013–2022)**
+  * **Foreign Success Rate:** Non-EU companies won **18.66%** of all EU space technology tenders (170 of 911 valid cases), with US firms taking the primary share (**14.16%**).
+  * **Temporal Trend:** Foreign tender success surged from **2017 onward**, consistently exceeding **30% annually** and peaking at **60.32% in 2021**.
+  * **Price & Competition Dynamics:** Tenders awarded to non-EU suppliers received **more bids per tender (5.94 average)** and lower average bid prices (€1.4M vs. €4.07M for EU firms), indicating price competition rather than purely an EU capacity deficit.
+
+* **Dimension 3: Copernicus Programme Supply Chain**
+  * **Public Procurement:** Foreign entities secured **5.70%** (73 of 1,281) of Copernicus contracts between 2014 and 2022, led by Switzerland (1.72%), Norway (1.72%), and the UK (1.17%).
+  * **Sentinel Satellite Hardware:** Non-EU involvement in the Sentinel industrial consortium reaches **11.05%** of all components, with the highest foreign reliance in **Sentinel-1 (18.52%)** and **Sentinel-2 (13.16%)**.
+
+---
+
+## Empirical Data & Visualizations
+
+<details>
+<summary><b>Table 1: Non-EU Ownership of the EU Space Industry</b></summary>
+
+| Nationality of Non-EU Owners | Direct Ownership (%) | Indirect Ownership (%) |
+| :--- | :---: | :---: |
+| **USA** | 5.94 | 16.43 |
+| **UK** | 1.13 | 2.72 |
+| **Canada** | 0.45 | 2.06 |
+| **Norway** | 0.37 | 1.52 |
+| **Switzerland** | 0.07 | 1.05 |
+| **China** | 0.00 | 0.03 |
+| **Total Non-EU Ownership** | **8.22** | **27.26** |
+| **Average Shareholding** | **5.27** | **2.61** |
+
+*Source: Own analysis based on Orbis database (Bureau van Dijk, 2023). Weighted by 2021/2022 revenue.*
+</details>
+
+<details>
+<summary><b>Table 2: Non-EU Success in EU Space Tenders (2013–2022)</b></summary>
+
+| Nationality Non-EU Supplier | # Tenders Won | Share of Total Tenders (%) |
+| :--- | :---: | :---: |
+| **USA** | 129 | 14.16 |
+| **UK** | 31 | 3.40 |
+| **Canada** | 6 | 0.66 |
+| **Israel** | 3 | 0.33 |
+| **Switzerland** | 1 | 0.11 |
+| **Total Non-EU** | **170** | **18.66** |
+
+*Source: Own analysis based on OpenTender.eu (2023). Total dataset = 911 valid tender cases.*
+</details>
+
+<details>
+<summary><b>Graph 1: Yearly Share of EU Space Tenders Awarded to Non-EU Bidders (%)</b></summary>
+
+```mermaid
+xychart-beta
+    title "Share of EU27 Space Tenders Awarded to Non-EU Bidders (2013-2022)"
+    x-axis ["2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022"]
+    y-axis "Share (%)" 0 --> 70
+    bar [3.08, 11.38, 4.12, 1.41, 37.04, 42.39, 32.14, 33.33, 60.32, 32.00]
+
 # European space technology manufacturers database
 ## General information
 This research aims to investigate the dependency of the EU’s space capabilities on foreign
@@ -321,64 +383,3 @@ A quantitative Master's thesis analyzing the extent to which the European Union'
 
 ---
 
-## Executive Summary & Findings
-
-* **Dimension 1: Corporate Ownership (EU Space Industry)**
-  * **Direct vs. Indirect Ownership:** Direct non-EU ownership of Eurospace member firms stands at **8.22%**, but jumps to **27.26%** when incorporating indirect ownership structures.
-  * **Geopolitical Profile:** Foreign ownership is heavily concentrated in allied nations (USA, Canada, UK, Switzerland, Norway). Ownership by geopolitical rivals (e.g., Russia, China) is **<0.03%**.
-  * **Firm Type Variations:** Publicly traded space manufacturers exhibit significant foreign ownership, whereas state- or family-owned firms remain predominantly EU-owned.
-
-* **Dimension 2: Public Procurement Tenders (2013–2022)**
-  * **Foreign Success Rate:** Non-EU companies won **18.66%** of all EU space technology tenders (170 of 911 valid cases), with US firms taking the primary share (**14.16%**).
-  * **Temporal Trend:** Foreign tender success surged from **2017 onward**, consistently exceeding **30% annually** and peaking at **60.32% in 2021**.
-  * **Price & Competition Dynamics:** Tenders awarded to non-EU suppliers received **more bids per tender (5.94 average)** and lower average bid prices (€1.4M vs. €4.07M for EU firms), indicating price competition rather than purely an EU capacity deficit.
-
-* **Dimension 3: Copernicus Programme Supply Chain**
-  * **Public Procurement:** Foreign entities secured **5.70%** (73 of 1,281) of Copernicus contracts between 2014 and 2022, led by Switzerland (1.72%), Norway (1.72%), and the UK (1.17%).
-  * **Sentinel Satellite Hardware:** Non-EU involvement in the Sentinel industrial consortium reaches **11.05%** of all components, with the highest foreign reliance in **Sentinel-1 (18.52%)** and **Sentinel-2 (13.16%)**.
-
----
-
-## Empirical Data & Visualizations
-
-<details>
-<summary><b>Table 1: Non-EU Ownership of the EU Space Industry</b></summary>
-
-| Nationality of Non-EU Owners | Direct Ownership (%) | Indirect Ownership (%) |
-| :--- | :---: | :---: |
-| **USA** | 5.94 | 16.43 |
-| **UK** | 1.13 | 2.72 |
-| **Canada** | 0.45 | 2.06 |
-| **Norway** | 0.37 | 1.52 |
-| **Switzerland** | 0.07 | 1.05 |
-| **China** | 0.00 | 0.03 |
-| **Total Non-EU Ownership** | **8.22** | **27.26** |
-| **Average Shareholding** | **5.27** | **2.61** |
-
-*Source: Own analysis based on Orbis database (Bureau van Dijk, 2023). Weighted by 2021/2022 revenue.*
-</details>
-
-<details>
-<summary><b>Table 2: Non-EU Success in EU Space Tenders (2013–2022)</b></summary>
-
-| Nationality Non-EU Supplier | # Tenders Won | Share of Total Tenders (%) |
-| :--- | :---: | :---: |
-| **USA** | 129 | 14.16 |
-| **UK** | 31 | 3.40 |
-| **Canada** | 6 | 0.66 |
-| **Israel** | 3 | 0.33 |
-| **Switzerland** | 1 | 0.11 |
-| **Total Non-EU** | **170** | **18.66** |
-
-*Source: Own analysis based on OpenTender.eu (2023). Total dataset = 911 valid tender cases.*
-</details>
-
-<details>
-<summary><b>Graph 1: Yearly Share of EU Space Tenders Awarded to Non-EU Bidders (%)</b></summary>
-
-```mermaid
-xychart-beta
-    title "Share of EU27 Space Tenders Awarded to Non-EU Bidders (2013-2022)"
-    x-axis ["2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022"]
-    y-axis "Share (%)" 0 --> 70
-    bar [3.08, 11.38, 4.12, 1.41, 37.04, 42.39, 32.14, 33.33, 60.32, 32.00]
