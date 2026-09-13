@@ -1,7 +1,9 @@
 # Foreign Dependency in EU Space Technology Capabilities
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Data Source](https://img.shields.io/badge/Data-OpenTender.eu%20%7C%20Orbis%20%7C%20ESA-blue)](#data-sources)
+[![Data Source: OpenTender.eu](https://img.shields.io/badge/Data-OpenTender.eu-blue)](https://opentender.eu/)
+[![Data Source: Orbis](https://img.shields.io/badge/Data-Orbis-blue)](https://www.moodys.com/web/en/us/capabilities/company-reference-data/orbis.html)
+[![Data Source: ESA](https://img.shields.io/badge/Data-ESA-blue)](https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Space_Component_tenders_and_contracts)
 
 A quantitative Master's thesis analyzing the extent to which the European Union's space capabilities rely on non-EU actors across three critical strategic dimensions: corporate ownership, public procurement, and program supply chains.
 
