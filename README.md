@@ -386,5 +386,9 @@ mistake to believe that strategic dependence is still a sustainable condition, a
 before, when the EU could rely on the hegemonic role of the USA and the military support of
 the NATO alliance.
 
+---
+### References
+
+> **Eggermont, J., Drieskens, E., & KU Leuven. Faculteit Sociale Wetenschappen. (2023).** *The EU’s strategic autonomy in the space domain: a case study on the strategic dependencies within the EU space capacity*. KU Leuven. Faculteit Sociale Wetenschappen. Opleiding Master of Advanced Studies in European Policies and Public Administration.
 
 
