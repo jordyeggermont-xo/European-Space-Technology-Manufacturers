@@ -52,6 +52,53 @@ capabilities.
   * **Public Procurement:** Foreign entities secured **5.70%** (73 of 1,281) of Copernicus contracts between 2014 and 2022, led by Switzerland (1.72%), Norway (1.72%), and the UK (1.17%).
   * **Sentinel Satellite Hardware:** Non-EU involvement in the Sentinel industrial consortium reaches **11.05%** of all components, with the highest foreign reliance in **Sentinel-1 (18.52%)** and **Sentinel-2 (13.16%)**.
 
+---
+
+## Detailed Findings & Tables
+
+<details>
+<summary><b>Dimension 1: Non-EU Ownership Breakdown (Table 1)</b></summary>
+
+Direct foreign shareholding in the EU space industry exceeds **8%**, but total foreign control increases to over **27%** when indirect ownership is included. Publicly traded space companies display widespread foreign ownership, whereas state- or family-owned firms remain predominantly EU-controlled.
+
+| Nationality of Non-EU Owners | % Direct Ownership | % Indirect Ownership |
+| :--- | :---: | :---: |
+| **USA** | 5.94 | 16.43 |
+| **UK** | 1.13 | 2.72 |
+| **Canada** | 0.45 | 2.06 |
+| **Norway** | 0.37 | 1.52 |
+| **Switzerland** | 0.07 | 1.05 |
+| **China** | 0.00 | 0.03 |
+| **Total Non-EU Ownership of Industry** | **8.22** | **27.26** |
+| **Average Shareholding of Non-EU Owners** | **5.27** | **2.61** |
+
+*Source: Own analysis based on Orbis database, Bureau van Dijk, 2023.*
+</details>
+
+<details>
+<summary><b>Dimension 2: Public Procurement & Tender Success (Tables 2–4 + Graph 1)</b></summary>
+
+Over 18% of space technology tenders between 2013 and 2022 were awarded to non-EU firms (US firms taking 14.16%). Except for 3 cases won by Israeli firms, all non-EU suppliers belong to allied agreements (EEA/NATO). Zero tenders were awarded to Russian or Chinese suppliers.
+
+#### Table 2: Non-EU Success in EU Space Technology Tenders
+
+| Nationality Non-EU Tender Supplier | # Tenders Won | Share of Total # Tenders (%) |
+| :--- | :---: | :---: |
+| **USA** | 129 | 14.16 |
+| **UK** | 31 | 3.40 |
+| **Canada** | 6 | 0.66 |
+| **Israel** | 3 | 0.33 |
+| **Switzerland** | 1 | 0.11 |
+| **Total** | **170** | **18.66** |
+
+*Source: Own analysis based on data retrieved from OpenTender.eu, 2023.*
 
 
+**Graph 1: Share of EU27 Space Technology Tenders Awarded to Non-EU Bidders (2013–2022)**
 
+```mermaid
+xychart-beta
+    title "Share of EU27 Space Technology Tenders Awarded to Non-EU Bidders (%)"
+    x-axis ["2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022"]
+    y-axis "Share (%)" 0 --> 70
+    bar [3.08, 11.38, 4.12, 1.41, 37.04, 42.39, 32.14, 33.33, 60.32, 32.00]
